@@ -1,7 +1,3 @@
-// DSC BEL1 WS2016 FSM 2-road intersection traffic light
-// with external trigger for road change and orange blinking
-// Resch Helmut
-
 void light(int bubble);
 
 int clk = 1000;
@@ -23,16 +19,6 @@ void loop() {
     Serial.println(i);
     delay(clk);
   }
-//  light(36);
-//  delay(clk);
-//  light(9);
-//  delay(clk);
-//  for (int i = 0; i < 10; i++) {
-//    light(18);
-//    delay(clk);
-//    light(0);
-//    delay(clk);
-//  }
   light(0);
 }
 
